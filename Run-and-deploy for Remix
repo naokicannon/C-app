@@ -7,7 +7,7 @@ import "https://github.com/naokicannon/C-app/blob/main/ERC20.SOL";
 
 contract Token is ERC20 {
     
-    constructor () public ERC20("Capp_2", "CAPP_2"){
-    _mint(msg.sender, 100 * (10 ** uint256(decimals())));
+    constructor () public ERC20("Capp", "CAPP"){
+    _mint(msg.sender, 1000000 * (10 ** uint256(decimals())));
     }
 }
